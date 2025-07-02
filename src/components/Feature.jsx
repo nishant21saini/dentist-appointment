@@ -50,7 +50,7 @@ const eyeIconPath = "M10 12a2 2 0 100-4 2 2 0 000 4zM.458 10C1.732 5.943 5.522 3
           <div className="w-14 h-14 bg-purple-100 rounded-lg flex items-center justify-center mb-6">
             <svg className="w-7 h-7 text-purple-600" fill="currentColor" viewBox="0 0 20 20">
               <path d="M10 12a2 2 0 100-4 2 2 0 000 4z" />
-              <path fillRule="evenodd" d=eyeIconPath clipRule="evenodd" />
+              <path fillRule="evenodd" d={eyeIconPath} clipRule="evenodd" />
             </svg>
           </div>
           <h3 className="text-xl font-semibold text-gray-900 mb-3">Treatment Tracking</h3>
