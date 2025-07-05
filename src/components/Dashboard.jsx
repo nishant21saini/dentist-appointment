@@ -25,13 +25,7 @@ export const Dashboard = () => {
 
       {/* Hero Section with Image */}
       <section className="relative w-full min-h-[50vh] flex items-center justify-center bg-gray-100 overflow-hidden">
-        {/* <div
-          className="absolute inset-0 bg-no-repeat bg-contain bg-center opacity-20"
-          style={{
-            backgroundImage: "url('https://cdn.pixabay.com/photo/2016/09/14/20/50/tooth-1670434_1280.png')",
-          }}
-        /> */}
-        {/* <div className="absolute inset-0 bg-gradient-to-r from-white/80 to-blue-50/60 z-0" /> */}
+  
         
         <div className="relative z-10 max-w-7xl w-full px-4 sm:px-6 lg:px-8 py-12 text-center">
           <h1 className="text-4xl md:text-5xl font-extrabold text-blue-900 leading-tight mb-6">
