@@ -39,25 +39,20 @@ A modern, responsive **React** frontend-only dashboard for managing a dental cli
 
 1. **Clone the repo**
    ```bash
-   git clone https://github.com/your-username/dental-dashboard.git
-   cd dental-dashboard
+   git clone https://github.com/nishant21saini/dentist-appointment
+   cd src
 Install dependencies
 
-bash
-Copy
-Edit
 npm install
 Run the app
 
-bash
-Copy
-Edit
+
 npm run dev
 Open in browser
 Visit http://localhost:5173
 
 🧼 Data Seeding & Storage
-On first load, localStorage.clear() is triggered to reset data
+
 
 Demo data is auto-inserted into:
 
@@ -73,8 +68,7 @@ calendarAppointments
 
 All actions like editing, adding, and deleting patients/incidents are reflected in localStorage.
 
-📷 Screenshots
-Dashboard	Calendar View
+
 
 📝 Notes
 This is a frontend-only project — there is no backend API integration
@@ -83,27 +77,20 @@ Built for assignment/demo/testing purposes
 
 Auth is simulated via localStorage and role checks
 
-🧑‍💻 Author
-Nishant Saini
-GitHub: @nishant21saini
-
-📄 License
-This project is open-source and free to use for educational and non-commercial purposes.
-
-yaml
-Copy
-Edit
-
----
-
-Would you like me to generate the actual `demo-data.js` file or help set up screenshots for the `README`?
 
 
 
+##Login Credentials
+ Doctor
+Email: zak@clinic.com
 
+Password: Zak123@
 
+Role: Doctor
 
+Patient
+Email: ben@clinic.com
 
+Password: Ben123@
 
-Ask ChatGPT
-
+Role: Patient
