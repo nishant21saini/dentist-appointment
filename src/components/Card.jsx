@@ -1,7 +1,6 @@
 import { useNavigate } from "react-router-dom";
 export const Card  = ({imageSrc,imageAlt,portalName,overView, onClick}) =>{
 
-
     return (
         <div
         onClick={onClick}

@@ -23,10 +23,7 @@ export const Dashboard = () => {
         </div>
       </header>
 
-      {/* Hero Section with Image */}
       <section className="relative w-full min-h-[50vh] flex items-center justify-center bg-gray-100 overflow-hidden">
-  
-        
         <div className="relative z-10 max-w-7xl w-full px-4 sm:px-6 lg:px-8 py-12 text-center">
           <h1 className="text-4xl md:text-5xl font-extrabold text-blue-900 leading-tight mb-6">
             Modern Dental Practice <span className="text-blue-600">Management</span>
@@ -40,8 +37,8 @@ export const Dashboard = () => {
     
       <section className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-16 mb-16">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-          <Card imageSrc="https://img.icons8.com/color/96/doctor-male.png" imageAlt='Doctor' portalName='Doctor Portal' overView=' Comprehensive tools for patient management, scheduling, and treatment tracking.' onClick={() => navigate("/doctorsignin")} /> 
-          <Card  imageSrc="https://img.icons8.com/color/96/person-male.png" imageAlt='Patient' portalName='Patient Portal' overView=' Easy access to appointments, treatment history, and dental records.' onClick={() => navigate("/patientsignin")}/>
+          <Card imageSrc="https://img.icons8.com/color/96/doctor-male.png" imageAlt='Doctor' portalName='Doctor Portal' overView=' Comprehensive tools for patient management, scheduling, and treatment tracking.' onClick={() => navigate("/signin")} /> 
+          <Card  imageSrc="https://img.icons8.com/color/96/person-male.png" imageAlt='Patient' portalName='Patient Portal' overView=' Easy access to appointments, treatment history, and dental records.' onClick={() => navigate("/signin")}/>
         </div>
       </section>
       
