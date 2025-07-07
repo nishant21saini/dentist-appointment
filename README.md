@@ -77,9 +77,6 @@ Built for assignment/demo/testing purposes
 
 Auth is simulated via localStorage and role checks
 
-
-
-
 ##Login Credentials
  Doctor
 Email: zak@clinic.com
