@@ -10,7 +10,7 @@ export const initializeDemoData = () => {
       localStorage.setItem("patientData", JSON.stringify(patientData));
     }
   
-    if (!localStorage.getItem('upcomingAppointments')) {
+    if (!localStorage.getItem('upcomingAppointments')){
       const upcomingAppointments = [
         {
           id: 1,
